@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="ProjectPath = ..\MusicPlayer_UMLLib\MusicPlayer_UMLLib.csproj" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-02T21:04:31" Importance="Medium" Text="MusicPlayer_UML's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'MusicPlayer_UML::Class1' -  (Class), 'MusicPlayer_UML::Bibliotheek' -  (Class), 'MusicPlayer_UML::Playlist' -  (Class), 'MusicPlayer_UML::Functie' -  (Class), 'MusicPlayer_UML::MusicPlayer' -  (Class) " />
+  <Message Timestamp="2016-04-02T21:05:02" Importance="Medium" Text="Project Added: c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\MusicPlayer_UMLLib.csproj" />
+  <Message Timestamp="2016-04-02T21:05:02" Importance="Medium" Text="'MusicPlayer_UML::Class1' -  (Class) : success (file created) - c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\GeneratedCode\Class1.cs" />
+  <Message Timestamp="2016-04-02T21:05:02" Importance="Medium" Text="'MusicPlayer_UML::Bibliotheek' -  (Class) : success (file created) - c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\GeneratedCode\Bibliotheek.cs" />
+  <Message Timestamp="2016-04-02T21:05:02" Importance="Medium" Text="'MusicPlayer_UML::Playlist' -  (Class) : success (file created) - c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\GeneratedCode\Playlist.cs" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Medium" Text="'MusicPlayer_UML::Functie' -  (Class) : success (file created) - c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\GeneratedCode\Functie.cs" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Medium" Text="'MusicPlayer_UML::MusicPlayer' -  (Class) : success (file created) - c:\users\daan1\documents\visual studio 2015\Projects\DNxMediapPlayer\MusicPlayer_UMLLib\GeneratedCode\MusicPlayer.cs" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="ProjectPath = ..\MusicPlayer_UMLLib\MusicPlayer_UMLLib.csproj" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Medium" Text="MusicPlayer_UML's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'MusicPlayer_UML::Class1' -  (Class), 'MusicPlayer_UML::Bibliotheek' -  (Class), 'MusicPlayer_UML::Playlist' -  (Class), 'MusicPlayer_UML::Functie' -  (Class), 'MusicPlayer_UML::MusicPlayer' -  (Class) " />
+  <Message Timestamp="2016-04-02T21:05:03" Importance="Diagnostic" Text="'MusicPlayer_UML::Class1' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'MusicPlayer_UML::Bibliotheek' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'MusicPlayer_UML::Playlist' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'MusicPlayer_UML::Functie' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'MusicPlayer_UML::MusicPlayer' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'33f89e90-ab6f-4a77-adeb-5250d9be97ab' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'8319ec5c-3ddf-43f2-a7ab-c7138d5a9fae' -  (Generalization): no bound template." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="Diagnostic" Text="'MusicPlayer_UML::' -  (Dependency): no bound template." />
+  <Message Timestamp="2016-04-02T21:05:04" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
