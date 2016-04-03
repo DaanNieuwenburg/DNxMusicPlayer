@@ -8,29 +8,52 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
+using System.Media;
+using System.IO;
+using Microsoft;
 
 namespace DNxMediaPlayer
 {
     public class Functie
     {
+        public string[] p { get; set; }
+        public string[] f { get; set; }
+        public List<string> path { get; set; } //zelfde als de array maar dan in list
+        public List<string> file { get; set; }
+        public string[] location { get; set; }
+        public bool[] PrintedOnScreen { get; set; }
+        private string _selected { get; set; }
+        public WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
+        public Functie(string selected)
+        {
+            _selected = selected;
+            path = new List<string>();
+            file = new List<string>();
+            for (int i = 0; i < file.Count; i++)
+            {
+                PrintedOnScreen[i] = false;
+            }
+        }
         public virtual void Next()
         {
-            throw new System.NotImplementedException();
+            player.controls.next();
         }
 
         public virtual void Previous()
         {
-            throw new System.NotImplementedException();
+            player.controls.previous();
         }
 
         public virtual void Pause()
         {
-            throw new System.NotImplementedException();
+            player.controls.pause();
         }
 
-        public virtual void Play()
+        public virtual void Play(string song)
         {
-            throw new System.NotImplementedException();
+            player.URL = song;
+            player.controls.play();
         }
 
         public virtual void Shuffle()
@@ -42,8 +65,16 @@ namespace DNxMediaPlayer
         {
             throw new System.NotImplementedException();
         }
-
+        public void AddSong()
+        {
+            OpenFileDialog _Addfile = new OpenFileDialog();
+            if (_Addfile.ShowDialog() == DialogResult.OK)
+            {
+                f = _Addfile.SafeFileNames;
+                file.Add(_Addfile.SafeFileName);
+                path.Add(_Addfile.FileName);
+                p = _Addfile.FileNames;
+            }
+        }
     }
-
-
 }

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 namespace DNxMediaPlayer
 {
-    public class MusicPlayer : Functie
+    public class MusicPlayer 
     {
     }
 }
