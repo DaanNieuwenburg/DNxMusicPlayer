@@ -20,7 +20,7 @@ namespace DNxMediaPlayer
         public MediaPlayer()
         {
             InitializeComponent();
-            
+            shuffleisoff = false;
             btnPausePlay.BackgroundImage = Properties.Resources.button_Play_Blue;
             _function = new Functie(SelectedSong);
             for (int i = 0; i < _function.file.Count; i++)
@@ -36,7 +36,12 @@ namespace DNxMediaPlayer
             {
                 pauze = true;
                 btnPausePlay.BackgroundImage = Properties.Resources.button_Pause_Blue;
+                if (SongList.SelectedIndex == -1)
+                {
+                    SongList.SelectedIndex = 0;
+                }
                 SelectedSong = _function.path[SongList.SelectedIndex];
+
                 _function.Play(SelectedSong);
             }
             else
@@ -79,7 +84,23 @@ namespace DNxMediaPlayer
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            _function.Next();
+            int j = SongList.SelectedIndex;
+            if (shuffleisoff == false)
+            {
+                
+                if (SongList.SelectedIndex != SongList.Items.Count -1 )
+                {
+                    j++;
+                }
+                else
+                {
+                    j = 0;
+                }
+                SelectedSong = _function.path[j];
+                SongList.SelectedIndex = j;
+                _function.Play(SelectedSong);
+            }
+            
         }
 
         private void btnShuffle_Click(object sender, EventArgs e)
