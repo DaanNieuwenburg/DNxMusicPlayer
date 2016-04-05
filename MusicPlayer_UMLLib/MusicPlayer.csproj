@@ -56,6 +56,12 @@
     </Compile>
     <Compile Include="MusicPlayer.cs" />
     <Compile Include="Playlist.cs" />
+    <Compile Include="Playlist_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playlist_Add.Designer.cs">
+      <DependentUpon>Playlist_Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -67,6 +73,9 @@
   <ItemGroup>
     <EmbeddedResource Include="MediaPlayer.resx">
       <DependentUpon>MediaPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playlist_Add.resx">
+      <DependentUpon>Playlist_Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,6 +118,114 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Stop Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Blue_Skin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button shuffle Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Next Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Next Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Pause Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Pause Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Play Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Play Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Previous Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Previous Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Repeat Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Repeat Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button shuffle Cyan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button shuffle Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Stop Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Stop Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Next Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Pause Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Play Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Previous Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Repeat Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button shuffle Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Stop Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Add Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Add Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Add Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Add Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Remove Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Remove Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Remove Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Remove Pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Clear Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Clear Cyan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Clear Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button Clear Pink.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

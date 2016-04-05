@@ -118,22 +118,127 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button Next Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Next Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Pause Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Pause Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Next Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Next Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Stop Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Stop Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shuffle Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shuffle Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Repeat Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Repeat Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Remove Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Remove Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Stop Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Stop Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Add Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Add Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="button Next Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button Next Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button Pause Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button Pause Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button Play Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Play Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Previous Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Previous Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Play Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Play Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Add Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Add Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Previous Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Previous Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Remove Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Remove Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shuffle Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shuffle Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Repeat Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Repeat Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Remove Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Remove Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Play Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Play Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shuffle Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shuffle Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button Play Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button Play Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="button Repeat Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Repeat Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Add Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Add Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shuffle Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shuffle Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="button Previous Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button Previous Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Stop Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Stop Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Stop Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Stop Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Remove Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Remove Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Pause Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Pause Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Add Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Add Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Pause Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Pause Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Previous Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Previous Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button shuffle Cyan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button shuffle Cyan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Next Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Next Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Pause Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Pause Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button Repeat Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button Repeat Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button shuffle Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button shuffle Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button Clear Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Clear Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Clear Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Clear Cyan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Clear Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Clear Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button Clear Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button Clear Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -15,6 +15,27 @@ using Microsoft;
 
 namespace DNxMediaPlayer
 {
+    public static class MSSystemExtenstions
+    {
+        static bool shuffle = true;
+        private static Random rnd = new Random();
+        public static void Shuffle<T>(this T[] array)
+        {
+            while (shuffle == true)
+            {
+                rnd = new Random();
+                int n = array.Length;
+                while (n > 1)
+                {
+                    int k = rnd.Next(n);
+                    n--;
+                    T temp = array[n];
+                    array[n] = array[k];
+                    array[k] = temp;
+                }
+            }
+        }
+    }
     public class Functie
     {
         public string[] p { get; set; }
@@ -23,13 +44,19 @@ namespace DNxMediaPlayer
         public List<string> file { get; set; }
         public string[] location { get; set; }
         public bool[] PrintedOnScreen { get; set; }
+        private OpenFileDialog _Addfile { get; set; }
         private string _selected { get; set; }
+        private ListBox.ObjectCollection _list { get; set; }
+        private int _wachtrij { get; set; }
         public WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
-        public Functie(string selected)
+        public Functie(string selected, int wachtrij, ListBox.ObjectCollection list)
         {
+            _list = list;
+            _wachtrij = wachtrij;
             _selected = selected;
             path = new List<string>();
             file = new List<string>();
+
             for (int i = 0; i < file.Count; i++)
             {
                 PrintedOnScreen[i] = false;
@@ -38,6 +65,10 @@ namespace DNxMediaPlayer
         public virtual void Next()
         {
             player.controls.next();
+        }
+        public virtual void Stop()
+        {
+            player.controls.stop();
         }
 
         public virtual void Previous()
@@ -58,7 +89,18 @@ namespace DNxMediaPlayer
 
         public virtual void Shuffle()
         {
-            throw new System.NotImplementedException();
+
+            /*Random rng = new Random();
+            int n = path.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                string value = _list[k].ToString();
+                _list[k] = _list[n];
+                _list[n] = value;
+            }*/
+
         }
 
         public virtual void Replay()
@@ -67,13 +109,25 @@ namespace DNxMediaPlayer
         }
         public void AddSong()
         {
-            OpenFileDialog _Addfile = new OpenFileDialog();
+            _Addfile = new OpenFileDialog();
+            this._Addfile.Multiselect = true;
             if (_Addfile.ShowDialog() == DialogResult.OK)
             {
-                f = _Addfile.SafeFileNames;
-                file.Add(_Addfile.SafeFileName);
-                path.Add(_Addfile.FileName);
-                p = _Addfile.FileNames;
+                if (_Addfile.Multiselect == true)
+                {
+                    for (int i = 0; i < _Addfile.FileNames.Length; i++)
+                    {
+                        foreach (String _file in _Addfile.SafeFileNames)
+                        {
+                            file.Add(_file);
+                        }
+                        foreach (String _path in _Addfile.FileNames)
+                        {
+                            path.Add(_path);
+                        }
+                    }
+
+                }
             }
         }
     }
